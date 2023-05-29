@@ -1,0 +1,90 @@
+.cart-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-popup h2 {
+  text-align: center;
+}
+
+.cart-content {
+  flex-grow: 1;
+}
+
+.cart-content .empty-message {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cart-popup ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cart-popup ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-popup .checkout-button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-popup .checkout-button:hover {
+  background-color: darkorange;
+}
+
+.cart-popup .exit-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cart-popup .exit-button::before,
+.cart-popup .exit-button::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 2px;
+  background-color: black;
+}
+
+.cart-popup .exit-button::before {
+  transform: rotate(45deg);
+}
+
+.cart-popup .exit-button::after {
+  transform: rotate(-45deg);
+}
+
+.cart-popup p:first-of-type {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,225 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Burger Inn",
+      "location": "Gedimino pr. 11, Vilnius",
+      "latitude": 54.685,
+      "longitude": 25.278,
+      "menu": {
+        "burgers": [
+          "Classic Cheeseburger",
+          "Classic Burger",
+          "BBQ Bacon Burger",
+          "Mushroom Swiss Burger"
+        ],
+        "drinks": ["Cola", "Lemonade", "Iced Tea"],
+        "sauces": ["Ketchup", "Mustard", "Mayonnaise"]
+      },
+      "prices": {
+        "burgers": {
+          "Classic Cheeseburger": 8.99,
+          "Classic Burger": 9.99,
+          "BBQ Bacon Burger": 9.99,
+          "Mushroom Swiss Burger": 10.99
+        },
+        "drinks": {
+          "Cola": 1.99,
+          "Lemonade": 1.99,
+          "Iced Tea": 2.49
+        },
+        "sauces": {
+          "Ketchup": 0.5,
+          "Mustard": 0.5,
+          "Mayonnaise": 0.5
+        }
+      },
+      "workingHours": {
+        "Monday": "12:00 PM - 10:00 PM",
+        "Tuesday": "12:00 PM - 10:00 PM",
+        "Wednesday": "12:00 PM - 10:00 PM",
+        "Thursday": "12:00 PM - 10:00 PM",
+        "Friday": "12:00 PM - 12:00 AM",
+        "Saturday": "12:00 PM - 12:00 AM",
+        "Sunday": "12:00 PM - 10:00 PM"
+      },
+      "description": "Burger Inn is a cozy restaurant located on Gedimino Avenue, offering a variety of delicious burgers made with fresh ingredients. Our menu also includes refreshing drinks and a selection of tasty sauces to enhance your burger experience. Visit us and enjoy the perfect blend of flavors in a friendly atmosphere."
+    },
+    {
+      "id": 2,
+      "name": "Burger House",
+      "location": "Pilies g. 8, Vilnius",
+      "latitude": 54.678,
+      "longitude": 25.287,
+      "menu": {
+        "burgers": [
+          "Bacon Cheeseburger",
+          "Spicy Jalapeno Burger",
+          "Mushroom Swiss Burger"
+        ],
+        "drinks": ["Cola", "Lemonade", "Iced Tea"],
+        "sauces": ["Ketchup", "Mustard", "Mayonnaise"]
+      },
+      "prices": {
+        "burgers": {
+          "Bacon Cheeseburger": 9.99,
+          "Spicy Jalapeno Burger": 10.99,
+          "Mushroom Swiss Burger": 10.99
+        },
+        "drinks": {
+          "Cola": 1.99,
+          "Lemonade": 1.99,
+          "Iced Tea": 2.49
+        },
+        "sauces": {
+          "Ketchup": 0.5,
+          "Mustard": 0.5,
+          "Mayonnaise": 0.5
+        }
+      },
+      "workingHours": {
+        "Monday": "11:00 AM - 9:00 PM",
+        "Tuesday": "11:00 AM - 9:00 PM",
+        "Wednesday": "11:00 AM - 9:00 PM",
+        "Thursday": "11:00 AM - 9:00 PM",
+        "Friday": "11:00 AM - 11:00 PM",
+        "Saturday": "11:00 AM - 11:00 PM",
+        "Sunday": "11:00 AM - 9:00 PM"
+      },
+      "description": "Burger House is a popular burger joint situated on Pilies Street in Vilnius. We serve mouthwatering burgers that will satisfy your cravings. Our menu also includes a variety of refreshing drinks and a selection of delightful sauces. Come and enjoy a fantastic burger experience with us!"
+    },
+    {
+      "id": 3,
+      "name": "The Burger Shack",
+      "location": "Gedimino pr. 28, Vilnius",
+      "latitude": 54.682,
+      "longitude": 25.284,
+      "menu": {
+        "burgers": [
+          "Double Cheeseburger",
+          "Spicy Chicken Burger",
+          "Veggie Burger"
+        ],
+        "drinks": ["Soda", "Iced Coffee", "Milkshake"],
+        "sauces": ["Barbecue Sauce", "Ranch Dressing", "Garlic Aioli"]
+      },
+      "prices": {
+        "burgers": {
+          "Double Cheeseburger": 11.99,
+          "Spicy Chicken Burger": 9.99,
+          "Veggie Burger": 8.99
+        },
+        "drinks": {
+          "Soda": 1.99,
+          "Iced Coffee": 2.99,
+          "Milkshake": 3.99
+        },
+        "sauces": {
+          "Barbecue Sauce": 0.5,
+          "Ranch Dressing": 0.5,
+          "Garlic Aioli": 0.5
+        }
+      },
+      "workingHours": {
+        "Monday": "11:30 AM - 9:00 PM",
+        "Tuesday": "11:30 AM - 9:00 PM",
+        "Wednesday": "11:30 AM - 9:00 PM",
+        "Thursday": "11:30 AM - 9:00 PM",
+        "Friday": "11:30 AM - 11:00 PM",
+        "Saturday": "11:30 AM - 11:00 PM",
+        "Sunday": "11:30 AM - 9:00 PM"
+      },
+      "description": "The Burger Shack is a popular burger spot located on Gedimino Avenue. We serve juicy and flavorful burgers that will satisfy your cravings. Our menu also includes a variety of refreshing drinks and a selection of tasty sauces. Visit us and indulge in a delightful burger experience!"
+    },
+    {
+      "id": 4,
+      "name": "Burger Bar",
+      "location": "Vokiečių g. 15, Vilnius",
+      "latitude": 54.674,
+      "longitude": 25.281,
+      "menu": {
+        "burgers": [
+          "Cheeseburger Deluxe",
+          "Bacon Guacamole Burger",
+          "Mushroom Swiss Burger"
+        ],
+        "drinks": ["Root Beer", "Fruit Punch", "Iced Tea"],
+        "sauces": ["Chipotle Mayo", "Honey Mustard", "Spicy Sriracha"]
+      },
+      "prices": {
+        "burgers": {
+          "Cheeseburger Deluxe": 10.99,
+          "Bacon Guacamole Burger": 11.99,
+          "Mushroom Swiss Burger": 10.99
+        },
+        "drinks": {
+          "Root Beer": 1.99,
+          "Fruit Punch": 2.49,
+          "Iced Tea": 1.99
+        },
+        "sauces": {
+          "Chipotle Mayo": 0.5,
+          "Honey Mustard": 0.5,
+          "Spicy Sriracha": 0.5
+        }
+      },
+      "workingHours": {
+        "Monday": "12:00 PM - 10:00 PM",
+        "Tuesday": "12:00 PM - 10:00 PM",
+        "Wednesday": "12:00 PM - 10:00 PM",
+        "Thursday": "12:00 PM - 10:00 PM",
+        "Friday": "12:00 PM - 12:00 AM",
+        "Saturday": "12:00 PM - 12:00 AM",
+        "Sunday": "12:00 PM - 10:00 PM"
+      },
+      "description": "Burger Bar is a trendy burger joint located on Vokiečių Street. We specialize in crafting delicious burgers with premium ingredients. Our menu also features a variety of refreshing drinks and a range of delectable sauces. Come and enjoy an unforgettable burger experience at Burger Bar!"
+    },
+    {
+      "id": 5,
+      "name": "The Burger Spot",
+      "location": "Didžioji g. 10, Vilnius",
+      "latitude": 54.679,
+      "longitude": 25.285,
+      "menu": {
+        "burgers": [
+          "Bacon Ranch Burger",
+          "Mushroom Swiss Burger",
+          "BBQ Pulled Pork Burger"
+        ],
+        "drinks": ["Soft Drink", "Iced Tea", "Milkshake"],
+        "sauces": [
+          "Truffle Aioli",
+          "Sweet Chili Sauce",
+          "Garlic Parmesan Sauce"
+        ]
+      },
+      "prices": {
+        "burgers": {
+          "Bacon Ranch Burger": 9.99,
+          "Mushroom Swiss Burger": 10.99,
+          "BBQ Pulled Pork Burger": 11.99
+        },
+        "drinks": {
+          "Soft Drink": 1.99,
+          "Iced Tea": 2.49,
+          "Milkshake": 3.99
+        },
+        "sauces": {
+          "Truffle Aioli": 0.5,
+          "Sweet Chili Sauce": 0.5,
+          "Garlic Parmesan Sauce": 0.5
+        }
+      },
+      "workingHours": {
+        "Monday": "11:00 AM - 9:00 PM",
+        "Tuesday": "11:00 AM - 9:00 PM",
+        "Wednesday": "11:00 AM - 9:00 PM",
+        "Thursday": "11:00 AM - 9:00 PM",
+        "Friday": "11:00 AM - 11:00 PM",
+        "Saturday": "11:00 AM - 11:00 PM",
+        "Sunday": "11:00 AM - 9:00 PM"
+      },
+      "description": "The Burger Spot is a popular burger spot situated on Didžioji Street. We serve delicious burgers that are packed with flavor. Our menu also includes a variety of refreshing drinks and a selection of delectable sauces. Visit us and treat yourself to a fantastic burger experience!"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Pizza Palace",
+      "location": "Gedimino pr. 15, Vilnius",
+      "latitude": 54.686,
+      "longitude": 25.279,
+      "menu": {
+        "pizzas": ["Margherita", "Pepperoni", "Vegetarian"],
+        "drinks": ["Cola", "Sprite", "Fanta"],
+        "sides": ["Garlic Bread", "Chicken Wings", "Caesar Salad"]
+      },
+      "prices": {
+        "pizzas": {
+          "Margherita": 9.99,
+          "Pepperoni": 11.99,
+          "Vegetarian": 10.99
+        },
+        "drinks": {
+          "Cola": 1.99,
+          "Sprite": 1.99,
+          "Fanta": 1.99
+        },
+        "sides": {
+          "Garlic Bread": 3.99,
+          "Chicken Wings": 6.99,
+          "Caesar Salad": 5.99
+        }
+      },
+      "workingHours": {
+        "Monday": "11:00 AM - 10:00 PM",
+        "Tuesday": "11:00 AM - 10:00 PM",
+        "Wednesday": "11:00 AM - 10:00 PM",
+        "Thursday": "11:00 AM - 10:00 PM",
+        "Friday": "11:00 AM - 11:00 PM",
+        "Saturday": "11:00 AM - 11:00 PM",
+        "Sunday": "11:00 AM - 10:00 PM"
+      },
+      "description": "Pizza Palace is a popular pizza bar located on Gedimino Avenue in Vilnius. We serve a variety of delicious pizzas made with fresh ingredients. Our menu also includes a selection of refreshing drinks and mouthwatering sides. Visit us and experience the authentic flavors of Italian-style pizza in a cozy atmosphere."
+    },
+    {
+      "id": 2,
+      "name": "Pizza Heaven",
+      "location": "Pilies g. 10, Vilnius",
+      "latitude": 54.679,
+      "longitude": 25.286,
+      "menu": {
+        "pizzas": ["Hawaiian", "Meat Lovers", "Mushroom Delight"],
+        "drinks": ["Cola", "Sprite", "Lemonade"],
+        "sides": ["Garlic Knots", "Mozzarella Sticks", "Caprese Salad"]
+      },
+      "prices": {
+        "pizzas": {
+          "Hawaiian": 10.99,
+          "Meat Lovers": 12.99,
+          "Mushroom Delight": 11.99
+        },
+        "drinks": {
+          "Cola": 1.99,
+          "Sprite": 1.99,
+          "Lemonade": 1.99
+        },
+        "sides": {
+          "Garlic Knots": 4.99,
+          "Mozzarella Sticks": 5.99,
+          "Caprese Salad": 6.99
+        }
+      },
+      "workingHours": {
+        "Monday": "12:00 PM - 9:00 PM",
+        "Tuesday": "12:00 PM - 9:00 PM",
+        "Wednesday": "12:00 PM - 9:00 PM",
+        "Thursday": "12:00 PM - 9:00 PM",
+        "Friday": "12:00 PM - 10:00 PM",
+        "Saturday": "12:00 PM - 10:00 PM",
+        "Sunday": "12:00 PM - 9:00 PM"
+      },
+      "description": "Pizza Heaven is a cozy pizza bar situated on Pilies Street in Vilnius. We specialize in crafting mouthwatering pizzas with a variety of toppings. Our menu also features refreshing drinks and delectable sides. Come and indulge in the heavenly flavors of our pizzas in a warm and inviting ambiance."
+    },
+    {
+      "id": 3,
+      "name": "Pizza Express",
+      "location": "Gedimino pr. 22, Vilnius",
+      "latitude": 54.683,
+      "longitude": 25.273,
+      "menu": {
+        "pizzas": ["BBQ Chicken", "Four Cheese", "Veggie Supreme"],
+        "drinks": ["Cola", "Sprite", "Root Beer"],
+        "sides": ["Garlic Pizza Bread", "Chicken Tenders", "Greek Salad"]
+      },
+      "prices": {
+        "pizzas": {
+          "BBQ Chicken": 11.99,
+          "Four Cheese": 10.99,
+          "Veggie Supreme": 11.99
+        },
+        "drinks": {
+          "Cola": 1.99,
+          "Sprite": 1.99,
+          "Root Beer": 2.49
+        },
+        "sides": {
+          "Garlic Pizza Bread": 4.99,
+          "Chicken Tenders": 6.99,
+          "Greek Salad": 7.99
+        }
+      },
+      "workingHours": {
+        "Monday": "11:00 AM - 9:00 PM",
+        "Tuesday": "11:00 AM - 9:00 PM",
+        "Wednesday": "11:00 AM - 9:00 PM",
+        "Thursday": "11:00 AM - 9:00 PM",
+        "Friday": "11:00 AM - 10:00 PM",
+        "Saturday": "11:00 AM - 10:00 PM",
+        "Sunday": "11:00 AM - 9:00 PM"
+      },
+      "description": "Pizza Express is a vibrant pizza bar located on Gedimino Avenue in Vilnius. We offer a wide selection of tasty pizzas with various toppings to satisfy your cravings. Our menu also includes refreshing drinks and appetizing sides. Visit us for a delightful dining experience filled with flavor and fun."
+    },
+    {
+      "id": 4,
+      "name": "Pizza Time",
+      "location": "Didžioji g. 5, Vilnius",
+      "latitude": 54.678,
+      "longitude": 25.292,
+      "menu": {
+        "pizzas": ["Pepperoni Feast", "Supreme Deluxe", "Veggie Medley"],
+        "drinks": ["Cola", "Lemon Lime Soda", "Orange Juice"],
+        "sides": ["Cheesy Breadsticks", "Jalapeno Poppers", "House Salad"]
+      },
+      "prices": {
+        "pizzas": {
+          "Pepperoni Feast": 12.99,
+          "Supreme Deluxe": 11.99,
+          "Veggie Medley": 11.99
+        },
+        "drinks": {
+          "Cola": 1.99,
+          "Lemon Lime Soda": 1.99,
+          "Orange Juice": 2.99
+        },
+        "sides": {
+          "Cheesy Breadsticks": 5.99,
+          "Jalapeno Poppers": 6.99,
+          "House Salad": 4.99
+        }
+      },
+      "workingHours": {
+        "Monday": "12:00 PM - 10:00 PM",
+        "Tuesday": "12:00 PM - 10:00 PM",
+        "Wednesday": "12:00 PM - 10:00 PM",
+        "Thursday": "12:00 PM - 10:00 PM",
+        "Friday": "12:00 PM - 11:00 PM",
+        "Saturday": "12:00 PM - 11:00 PM",
+        "Sunday": "12:00 PM - 10:00 PM"
+      },
+      "description": "Pizza Time is a welcoming pizza bar situated on Didžioji Street in Vilnius. We specialize in serving delicious pizzas with a variety of toppings. Our menu also includes a range of refreshing drinks and delectable sides. Step into our cozy ambiance and savor the taste of our mouthwatering pizzas."
+    },
+    {
+      "id": 5,
+      "name": "Pizza Land",
+      "location": "Pilies g. 12, Vilnius",
+      "latitude": 54.681,
+      "longitude": 25.284,
+      "menu": {
+        "pizzas": ["BBQ Chicken", "Hawaiian", "Vegetarian"],
+        "drinks": ["Cola", "Sprite", "Lemonade"],
+        "sides": ["Cheese Sticks", "Buffalo Wings", "Greek Salad"]
+      },
+      "prices": {
+        "pizzas": {
+          "BBQ Chicken": 10.99,
+          "Hawaiian": 10.99,
+          "Vegetarian": 9.99
+        },
+        "drinks": {
+          "Cola": 1.99,
+          "Sprite": 1.99,
+          "Lemonade": 1.99
+        },
+        "sides": {
+          "Cheese Sticks": 5.99,
+          "Buffalo Wings": 7.99,
+          "Greek Salad": 6.99
+        }
+      },
+      "workingHours": {
+        "Monday": "11:00 AM - 10:00 PM",
+        "Tuesday": "11:00 AM - 10:00 PM",
+        "Wednesday": "11:00 AM - 10:00 PM",
+        "Thursday": "11:00 AM - 10:00 PM",
+        "Friday": "11:00 AM - 11:00 PM",
+        "Saturday": "11:00 AM - 11:00 PM",
+        "Sunday": "11:00 AM - 10:00 PM"
+      },
+      "description": "Pizza Land is a lively pizza bar located on Pilies Street in Vilnius. We offer a wide selection of delicious pizzas featuring various flavors and toppings. Our menu also includes refreshing drinks and appetizing sides. Drop by and enjoy the vibrant atmosphere while indulging in our mouthwatering pizzas."
+    },
+    {
+      "id": 6,
+      "name": "Pizza Italia",
+      "location": "Gedimino pr. 10, Vilnius",
+      "latitude": 54.687,
+      "longitude": 25.281,
+      "menu": {
+        "pizzas": ["Margherita", "Quattro Formaggi", "Capricciosa"],
+        "drinks": ["Cola", "Fanta", "Iced Tea"],
+        "sides": ["Bruschetta", "Calamari", "Insalata Caprese"]
+      },
+      "prices": {
+        "pizzas": {
+          "Margherita": 9.99,
+          "Quattro Formaggi": 11.99,
+          "Capricciosa": 10.99
+        },
+        "drinks": {
+          "Cola": 1.99,
+          "Fanta": 1.99,
+          "Iced Tea": 2.49
+        },
+        "sides": {
+          "Bruschetta": 4.99,
+          "Calamari": 7.99,
+          "Insalata Caprese": 6.99
+        }
+      },
+      "workingHours": {
+        "Monday": "10:00 AM - 9:00 PM",
+        "Tuesday": "10:00 AM - 9:00 PM",
+        "Wednesday": "10:00 AM - 9:00 PM",
+        "Thursday": "10:00 AM - 9:00 PM",
+        "Friday": "10:00 AM - 10:00 PM",
+        "Saturday": "10:00 AM - 10:00 PM",
+        "Sunday": "10:00 AM - 9:00 PM"
+      },
+      "description": "Pizza Italia is an authentic Italian-style pizza bar located on Gedimino Avenue in Vilnius. We pride ourselves on crafting traditional pizzas using the finest ingredients and time-honored techniques. Our menu also includes refreshing drinks and authentic Italian sides. Immerse yourself in the flavors of Italy at Pizza Italia."
+    }
+  ]
+}
